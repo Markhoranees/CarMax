@@ -80,6 +80,10 @@ const Signin = () => {
         <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
         create account.
         </a>
+        <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+        Forgot Password.
+        </a>
+
       </p>
     </div>
   </div>
