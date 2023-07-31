@@ -13,12 +13,12 @@ const Home = () => {
     <section class="text-gray-400 body-font flex items-center align-text-middle justify-center h-screen">
       <div class="container mx-auto px-5 py-24 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
-          <h1 class="title-font sm:text-5xl text-7xl mb-4 font-medium text-yellow-700">
+          <h1 class="title-font sm:text-5xl text-7xl mb-4 font-medium font-mono  text-orange-600">
             Finance Your Next Car In Minutes
           </h1>
           <br />
           <div class="pd-10px flex justify-center">
-            <Link to="/register" class="inline-flex text-white bg-teal-950 font-bold border-0 py-2 px-6 focus:outline-none hover:bg-cyan-400 rounded text-lg">
+            <Link to="/register" class="inline-flex text-white bg-teal-900 font-sans font-bold border-0 py-3 px-8 focus:outline-none hover:bg-cyan-400 rounded text-lg">
               Get Registered !
             </Link>
           </div>

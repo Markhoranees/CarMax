@@ -33,7 +33,7 @@ const Footer = () => {
                 id="footer-field"
                 name="footer-field"
                 value={feedback}
-                onChange={handleChange}bg-transparent~
+                onChange={handleChange}
                 className="w-full bg-white bg-opacity-100 rounded border border-gray-300   focus:ring-red-200 focus:border-sky-600 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
