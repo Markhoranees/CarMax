@@ -1,17 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Signin = () => {
  
-//   const [email,setemail]=useState('');
-//   const [pass,setpass]=useState('');
-//   const handleClick = () =>{
-// console.log(email,pass)
-//   }
-//   const handleChange = () =>{
-//     setemail
-//   }
+
   return (
-    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+    <div className="flex min-h-full flex-1 flex-col justify-center bg-slate-100 px-6 py-12 lg:px-8">
     <div className="sm:mx-auto sm:w-full sm:max-w-sm">
       <img
         className="mx-auto h-10 w-auto"
@@ -34,7 +28,7 @@ const Signin = () => {
               id="email"
               name="email"
               type="email"
-              autoComplete="email"
+             
               required
               className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
             />
@@ -57,7 +51,7 @@ const Signin = () => {
               id="password"
               name="password"
               type="password"
-              autoComplete="current-password"
+             
               required
               className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
             />
@@ -76,13 +70,12 @@ const Signin = () => {
 
       <p className="mt-10 text-center text-sm text-gray-500 ">
  
-  
-        <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-        create account.
-        </a>
-        <a href="#" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
-        Forgot Password.
-        </a>
+ OR
+  <br/>
+        <Link to="/Register" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
+        Create account
+        </Link>
+       
 
       </p>
     </div>

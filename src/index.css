@@ -15,7 +15,7 @@
     animation: slide 20s linear infinite;
   } 
   .cont {
-    background-image: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-size: cover;
+    background-image:url("file:///D:/Anees%20carmax/car_max_React/client/src/components/Assets/corolla.webp");
+    background-size:cover;
     /* Additional styles */
   }

@@ -29,7 +29,7 @@ const HandleSUV = () =>{
 
   return (
   
-    <section className="bg-slate-200 text-black font-serif body-font">
+    <section className="bg-slate-100 text-black font-serif body-font">
       <div className="container px-5 py-24 mx-auto">
         <h1 className="sm:text-3xl text-2xl  title-font font-extrabold font-sans text-center text-orange-800 mb-20">CATEGORIES</h1>
         <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
@@ -38,7 +38,7 @@ const HandleSUV = () =>{
               <h2 className="text-gray-900 sm:text-xl title-font font-bold mb-2">LUXURY/SEDAN CARS</h2>
               <img src="http://1.bp.blogspot.com/-nIscOkmR1_k/TW2eV9ySLgI/AAAAAAAACbY/vzn5tlDA09A/s1600/2010_Infiniti-G37_Sedan_japanese-car-photyos_1.jpg" alt="sedans" />
           
-              <button onClick={HandleLuxury}   className="mt-3 text-black font-mono inline-flex items-center">ExploreCars
+              <button onClick={HandleLuxury}   className="mt-3 text-black font-mono inline-flex items-center">Explore
               <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
@@ -59,9 +59,9 @@ const HandleSUV = () =>{
           </div>
           <div className="p-4 md:w-1/3 flex">
             <div className="flex-grow pl-6">
-              <h2 className="text-gray-900 sm:text-xl title-font font-bold mb-2">SUV Cars</h2>
+              <h2 className="text-gray-900 sm:text-xl title-font font-bold mt-2 mb-2">SUV Cars</h2>
               <img src="https://th.bing.com/th/id/R.3a6d0ca3c8ebfc71c425a3899c178eea?rik=1nBbbF8TjGparQ&pid=ImgRaw&r=0" alt="SUV cars" />
-              <button onClick={HandleSUV} className="mt-3 text-black font-mono inline-flex items-center">EXPLORE
+              <button onClick={HandleSUV} className="mt-5 text-black font-mono inline-flex items-center">EXPLORE
                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>

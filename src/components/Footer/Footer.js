@@ -33,7 +33,7 @@ const Footer = () => {
                 id="footer-field"
                 name="footer-field"
                 value={feedback}
-                onChange={handleChange}bg-transparent
+                onChange={handleChange}bg-transparent~
                 className="w-full bg-white bg-opacity-100 rounded border border-gray-300   focus:ring-red-200 focus:border-sky-600 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -43,11 +43,22 @@ const Footer = () => {
             >
               Submit
             </button>
+
           </div>
           {/* Rest of the code */}
         </div>
       </div>
       {/* Rest of the code */}
+      <div className="bg-gray-300">
+        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p className="text-gray-800 text-sm text-center sm:text-left">
+            © 2023 CaR MaXz —
+            <a href="/" className="text-black ml-1" target="_blank" rel="noopener noreferrer">
+              @carmaxzy
+            </a>
+          </p>
+        </div>
+      </div>
     </footer>
   );
 };

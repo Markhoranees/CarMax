@@ -4,12 +4,12 @@ const Announce = () => {
 
   return (
     
-    <div className="text-end bg-sky-800 text-white p-1 text-sm">
+    <div className="text-end bg-red-600 text-white p-1 text-sm">
         <marquee
           behavior="scroll"
           direction="left"
           scrollamount="6"
-          className="font-sans"
+          className="font-serif"
         >
          Hurry up ! to be the first to get the newly arrived Audi R8
         </marquee>
